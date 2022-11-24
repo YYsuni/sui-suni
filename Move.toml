@@ -1,0 +1,10 @@
+[package]
+name = "suni001"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
+
+[addresses]
+suni = "0x1001"
+sui =  "0000000000000000000000000000000000000002"
